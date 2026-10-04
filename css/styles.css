@@ -182,6 +182,7 @@ body.menu-open .menu-toggle span:last-child { transform: translateY(-3.5px) rota
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 72%;
 }
 .hero-shade {
   background:
@@ -263,6 +264,7 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 68%;
 }
 .cine .shade {
   position: absolute;
@@ -357,11 +359,18 @@ h1 {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 1.1rem 1rem;
   margin-top: 48px;
 }
 .product { position: relative; text-decoration: none; }
-.product img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.product img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center 55%;
+  background: #e6e2d8;
+}
 .product strong, .product em { display: block; }
 .product strong { margin-top: 0.75rem; font-size: 0.95rem; font-weight: 500; }
 .product em { color: rgba(30, 33, 29, 0.6); font-style: normal; font-size: 0.8rem; margin-top: 0.2rem; }
