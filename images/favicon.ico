@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Error: 404</title>
+	<link href="/media/system/images/joomla-favicon.svg" rel="icon" type="image/svg+xml">
+	<link href="/media/system/images/favicon.ico" rel="alternate icon" type="image/vnd.microsoft.icon">
+	<link href="/media/system/images/joomla-favicon-pinned.svg" rel="mask-icon" color="#000">
+
+    <link href="/media/system/css/joomla-fontawesome.min.css" rel="lazy-stylesheet" /><noscript><link href="/media/system/css/joomla-fontawesome.min.css" rel="stylesheet" /></noscript>
+	<link href="/media/templates/site/cassiopeia/css/global/colors_standard.min.css" rel="stylesheet" />
+	<link href="/media/templates/site/cassiopeia/css/template.min.css" rel="stylesheet" />
+	<link href="/media/templates/site/cassiopeia/css/vendor/joomla-custom-elements/joomla-alert.min.css?0.2.0" rel="stylesheet" />
+	<link href="https://podovi.eu/modules/mod_ebstickycookienotice/tmpl/assets/css/cookie.css?v=952636079" rel="stylesheet" />
+	<link href="https://podovi.eu/modules/mod_ebstickycookienotice/tmpl/assets/css/responsive.css?v=86674732" rel="stylesheet" />
+	<link href="/modules/mod_djmegamenu/themes/clean/css/djmegamenu.css?4.3.7.free" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" rel="stylesheet" />
+	<link href="/modules/mod_djmegamenu/assets/css/offcanvas.min.css?4.3.7.free" rel="stylesheet" />
+	<link href="/modules/mod_djmegamenu/mobilethemes/dark/djmobilemenu.css?4.3.7.free" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/v4-shims.min.css" rel="stylesheet" />
+	<style>:root {
+		--hue: 214;
+		--template-bg-light: #f0f4fb;
+		--template-text-dark: #495057;
+		--template-text-light: #ffffff;
+		--link-color: var(--link-color);
+		--template-special-color: #001B4C;
+		
+	}</style>
+	<style>
+		@media (min-width: 980px) { #dj-megamenu160mobile { display: none; } }
+		@media (max-width: 979px) { #dj-megamenu160, #dj-megamenu160sticky, #dj-megamenu160placeholder { display: none !important; } }
+	</style>
+
+    <script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?647005fc12b79b3ca2bb30c059899d5994e3e34d"></script>
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"ERROR":"Error","MESSAGE":"Message","NOTICE":"Notice","WARNING":"Warning","JCLOSE":"Close","JOK":"OK","JOPEN":"Open"},"system.paths":{"root":"","rootFull":"https:\/\/podovi.eu\/","base":"","baseFull":"https:\/\/podovi.eu\/"}}</script>
+	<script src="/media/system/js/core.min.js?37ffe4186289eba9c5df81bea44080aff77b9684"></script>
+	<script src="/media/templates/site/cassiopeia/js/template.min.js" defer></script>
+	<script src="/media/system/js/messages-es5.min.js?c29829fd2432533d05b15b771f86c6637708bd9d" nomodule defer></script>
+	<script src="/media/system/js/messages.min.js?7f7aa28ac8e8d42145850e8b45b3bc82ff9a6411" type="module"></script>
+	<script src="https://podovi.eu/modules/mod_ebstickycookienotice/tmpl/assets/js/cookie_script.js?v=947170443"></script>
+	<script src="/modules/mod_djmegamenu/assets/js/jquery.djmegamenu.min.js?4.3.7.free" defer></script>
+	<script src="/modules/mod_djmegamenu/assets/js/jquery.djmobilemenu.min.js?4.3.7.free" defer></script>
+	<link rel="stylesheet preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" as="style">
+	<link rel="stylesheet preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style">
+	<link rel="stylesheet preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/v4-shims.min.css" as="style">
+
+</head>
+
+<body class="site error_site  wrapper-static view- no-layout no-task ">
+    <header class="header container-header full-width">
+                    <div class="grid-child">
+                <div class="navbar-brand">
+                    <a class="brand-logo" href="/">
+                        <img class="logo d-inline-block" loading="eager" decoding="async" src="/media/templates/site/cassiopeia/images/logo.svg" alt="LEA Mostar - Laminati, parketi, OSB ploče, umjetna trava, vrata">                    </a>
+                                    </div>
+            </div>
+                            <div class="grid-child container-nav">
+                                    <div class="dj-megamenu-wrapper" data-joomla4 data-tmpl="cassiopeia_sik">
+		<ul id="dj-megamenu160" class="dj-megamenu dj-megamenu-clean dj-megamenu-wcag horizontalMenu  dj-fa-5" data-options='{"wrap":null,"animIn":"fadeIn","animOut":"fadeOut","animSpeed":"normal","openDelay":0,"closeDelay":"500","event":"mouseenter","eventClose":"mouseleave","parentOpen":"0","fixed":0,"offset":"0","theme":"clean","direction":"ltr","wcag":"1","overlay":"0"}' data-trigger="979" role="menubar" aria-label="DJ-MegaMenu">
+		<li class="dj-up itemid101 first current active" role="none"><a class="dj-up_a active " href="/index.php"  role="menuitem"><span ><span class="title"><span class="name">Početna</span></span></span></a></li><li class="dj-up itemid128" role="none"><a class="dj-up_a  " href="/index.php/o-nama"  role="menuitem"><span ><span class="title"><span class="name">O nama</span></span></span></a></li><li class="dj-up itemid129 parent" role="none"><a class="dj-up_a  "  aria-haspopup="true" aria-expanded="false" href="/index.php/proizvodi"  role="menuitem"><span class="dj-drop" ><span class="title"><span class="name">Proizvodi</span></span><span class="arrow" aria-hidden="true"></span></span></a><div class="dj-subwrap  single_column subcols1" style=""><div class="dj-subwrap-in" style="width:400px;"><div class="dj-subcol" style="width:400px"><ul class="dj-submenu" role="menu" aria-label="Proizvodi"><li class="itemid362 first" role="none"><a href="/index.php/proizvodi/egger-pro-laminat-2025/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">EGGER PRO Laminat 2025+</span></span></a></li><li class="itemid287" role="none"><a href="/index.php/proizvodi/egger-pro-laminat/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">EGGER PRO Laminati - AKCIJA </span></span></a></li><li class="itemid238" role="none"><a href="/index.php/proizvodi/lajsne-egger/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">LAJSNE EGGER RAVNE</span></span></a></li><li class="itemid139" role="none"><a href="/index.php/proizvodi/lajsne"  role="menuitem"><span class="title"><span class="name">LAJSNE</span></span></a></li><li class="itemid142" role="none"><a href="/index.php/proizvodi/podloge"  role="menuitem"><span class="title"><span class="name">PODLOGE</span></span></a></li><li class="itemid143" role="none"><a href="/index.php/proizvodi/ljepila-i-lakovi"  role="menuitem"><span class="title"><span class="name">LAKOVI</span></span></a></li><li class="itemid274" role="none"><a href="/index.php/proizvodi/tarkett/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">TARKETT LAMINATI</span></span></a></li><li class="itemid138" role="none"><a href="/index.php/proizvodi/tarkett-gotovi-parketi/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">GOTOVI PARKETI</span></span></a></li><li class="itemid141" role="none"><a href="/index.php/proizvodi/osb-ploce"  role="menuitem"><span class="title"><span class="name">OSB PLOČE</span></span></a></li><li class="itemid144" role="none"><a href="/index.php/proizvodi/oprema"  role="menuitem"><span class="title"><span class="name">SOBNA VRATA</span></span></a></li><li class="itemid135" role="none"><a href="/index.php/proizvodi/linoleum/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">LINOLEUM TARKETT</span></span></a></li><li class="itemid309" role="none"><a href="/index.php/proizvodi/lvt-vinil-podovi"  role="menuitem"><span class="title"><span class="name">LVT VINIL PODOVI</span></span></a></li><li class="itemid140" role="none"><a href="/index.php/proizvodi/umjetna-trava"  role="menuitem"><span class="title"><span class="name">UMJETNA TRAVA</span></span></a></li><li class="itemid248" role="none"><a href="/index.php/proizvodi/lechner/manufacturer/lechner"  role="menuitem"><span class="title"><span class="name">LECHNER LJEPILA</span></span></a></li><li class="itemid145" role="none"><a href="/index.php/proizvodi/zidni-paneli"  role="menuitem"><span class="title"><span class="name">DEKORATIVNI ZIDNI PANELI</span></span></a></li></ul></div></div></div></li><li class="dj-up itemid136" role="none"><a class="dj-up_a  " href="/index.php/savjeti"  role="menuitem"><span ><span class="title"><span class="name">Savjeti i novosti</span></span></span></a></li><li class="dj-up itemid137" role="none"><a class="dj-up_a  " href="/index.php/kontakt"  role="menuitem"><span ><span class="title"><span class="name">Kontakt</span></span></span></a></li><li class="dj-up itemid307" role="none"><a class="dj-up_a  " href="/index.php/kosarica"  role="menuitem"><span ></span></a></li></ul>
+			<div id="dj-megamenu160mobile" class="dj-megamenu-offcanvas dj-megamenu-offcanvas-dark ">
+	<button class="dj-mobile-open-btn dj-fa-5" aria-label="Open mobile menu"><span class="dj-mobile-open-icon" aria-hidden="true"></span></button>	<aside id="dj-megamenu160offcanvas" class="dj-offcanvas dj-offcanvas-dark dj-offcanvas-left dj-fa-5 " data-effect="1" aria-hidden="true" aria-label="DJ-MegaMenu">
+		<div class="dj-offcanvas-top">
+			<button class="dj-offcanvas-close-btn" aria-label="Close mobile menu"><span class="dj-offcanvas-close-icon" aria-hidden="true"></span></button>
+		</div>
+					<div class="dj-offcanvas-logo">
+				<a href="https://podovi.eu/">
+					<img src="images/logo2024-a.jpg#joomlaImage://local-images/logo2024-a.jpg?width=1836&height=580" alt="LEA Mostar - Laminati, parketi, OSB ploče, umjetna trava, vrata" />
+				</a>
+			</div>
+						<div class="dj-offcanvas-content">
+			<ul class="dj-mobile-nav dj-mobile-dark " role="menubar">
+<li class="dj-mobileitem itemid-101 current active" role="none"><a class="dj-up_a  " href="/index.php"  role="menuitem"><span class="title"><span class="name">Početna</span></span></a></li><li class="dj-mobileitem itemid-128" role="none"><a class="dj-up_a  " href="/index.php/o-nama"  role="menuitem"><span class="title"><span class="name">O nama</span></span></a></li><li class="dj-mobileitem itemid-129 deeper parent" role="none"><a class="dj-up_a  "  aria-haspopup="true" aria-expanded="false" href="/index.php/proizvodi"  role="menuitem"><span class="title"><span class="name">Proizvodi</span></span></a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-362" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/egger-pro-laminat-2025/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">EGGER PRO Laminat 2025+</span></span></a></li><li class="dj-mobileitem itemid-287" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/egger-pro-laminat/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">EGGER PRO Laminati - AKCIJA </span></span></a></li><li class="dj-mobileitem itemid-238" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/lajsne-egger/manufacturer/egger"  role="menuitem"><span class="title"><span class="name">LAJSNE EGGER RAVNE</span></span></a></li><li class="dj-mobileitem itemid-139" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/lajsne"  role="menuitem"><span class="title"><span class="name">LAJSNE</span></span></a></li><li class="dj-mobileitem itemid-142" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/podloge"  role="menuitem"><span class="title"><span class="name">PODLOGE</span></span></a></li><li class="dj-mobileitem itemid-143" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/ljepila-i-lakovi"  role="menuitem"><span class="title"><span class="name">LAKOVI</span></span></a></li><li class="dj-mobileitem itemid-274" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/tarkett/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">TARKETT LAMINATI</span></span></a></li><li class="dj-mobileitem itemid-138" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/tarkett-gotovi-parketi/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">GOTOVI PARKETI</span></span></a></li><li class="dj-mobileitem itemid-141" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/osb-ploce"  role="menuitem"><span class="title"><span class="name">OSB PLOČE</span></span></a></li><li class="dj-mobileitem itemid-144" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/oprema"  role="menuitem"><span class="title"><span class="name">SOBNA VRATA</span></span></a></li><li class="dj-mobileitem itemid-135" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/linoleum/manufacturer/tarkett"  role="menuitem"><span class="title"><span class="name">LINOLEUM TARKETT</span></span></a></li><li class="dj-mobileitem itemid-309" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/lvt-vinil-podovi"  role="menuitem"><span class="title"><span class="name">LVT VINIL PODOVI</span></span></a></li><li class="dj-mobileitem itemid-140" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/umjetna-trava"  role="menuitem"><span class="title"><span class="name">UMJETNA TRAVA</span></span></a></li><li class="dj-mobileitem itemid-248" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/lechner/manufacturer/lechner"  role="menuitem"><span class="title"><span class="name">LECHNER LJEPILA</span></span></a></li><li class="dj-mobileitem itemid-145" role="none"><a class="dj-up_a  " href="/index.php/proizvodi/zidni-paneli"  role="menuitem"><span class="title"><span class="name">DEKORATIVNI ZIDNI PANELI</span></span></a></li></ul></li><li class="dj-mobileitem itemid-136" role="none"><a class="dj-up_a  " href="/index.php/savjeti"  role="menuitem"><span class="title"><span class="name">Savjeti i novosti</span></span></a></li><li class="dj-mobileitem itemid-137" role="none"><a class="dj-up_a  " href="/index.php/kontakt"  role="menuitem"><span class="title"><span class="name">Kontakt</span></span></a></li><li class="dj-mobileitem itemid-307" role="none"><a class="dj-up_a  " href="/index.php/kosarica"  role="menuitem"></a></li></ul>
+		</div>
+			</aside>
+</div>	</div>
+                                            </div>
+            </header>
+
+    <div class="site-grid">
+        <div class="grid-child container-component">
+            <h1 class="page-header">The requested page can't be found.</h1>
+            <div class="card">
+                <div class="card-body">
+                    <div id="system-message-container" aria-live="polite"></div>
+
+                    <p><strong>An error has occurred while processing your request.</strong></p>
+                    <p>You may not be able to visit this page because of:</p>
+                    <ul>
+                        <li>an <strong>out-of-date bookmark/favourite</strong></li>
+                        <li>a <strong>mistyped address</strong></li>
+                        <li>a search engine that has an <strong>out-of-date listing for this site</strong></li>
+                        <li>you have <strong>no access</strong> to this page</li>
+                    </ul>
+                    <p>Go to the Home Page</p>
+                    <p><a href="/index.php" class="btn btn-secondary"><span class="icon-home" aria-hidden="true"></span> Home Page</a></p>
+                    <hr>
+                    <p>If difficulties persist, please contact the website administrator and report the error below.</p>
+                    <blockquote>
+                        <span class="badge bg-secondary">404</span> Page not found                    </blockquote>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!--****************************** COOKIES HTML CODE START HERE ******************************-->
+<div class="notice_div_ribbin ebsticky_bottom" id="eu_cookies">
+	<div class="inner1 ">
+
+		<div class="inner3 eb_contentwrap">
+						<div class="eb_textinfo">
+				<div class="heading_title">Ova stranica koristi samo nužne kolačiće kako bi Vam omogućili bolje i ugodnije surfanje.</div>				<p>Korištenjem web stranice slažete se sa uvjetima korištenja kolačića</p>			</div>
+		</div>
+		<div class="button_message eb_privacypolicy"> 
+							<a  href="index.php/politika-o-kolacicima" class="button_cookie eb_papbtn" aria-label="Cookie Policy">Saznajte više</a>
+						<button class="button_cookie" onclick="calltohide()" id="hideme" type="button">Prihvati</button>
+		</div>
+
+	</div>
+</div>
+<!--****************************** COOKIES HTML CODE END HERE ******************************-->
+
+<!--****************************** COOKIES JAVSCRIPT CODE START HERE -- FOR ACCEPT ******************************-->
+<script type="text/javascript">
+	check_cookie(getBaseURL());
+</script>
+<!--****************************** COOKIES JAVSCRIPT CODE END HERE ******************************-->
+
+<!--****************************** COOKIES CSS START HERE ******************************-->
+<style>
+.notice_div_simplebar,.notice_div_ribbin{background:#f1f1f3!important; z-index: 99999!important; }
+.inner3 .heading_title{color:#770c12!important; font-size: 18px;}
+.inner3 p{color:#000000!important; font-size: 12px;}
+.button_cookie{background:#000000!important; color:#ffffff!important; border: 0; width: 100%; font-family: "Poppins", sans-serif; line-height: normal;}
+.eb_papbtn{background:#770c12!important; color:#ffffff!important;}
+.eb_contentimagewrap .eb_contentwrap .eb_imagewrap{float:left; width:80px; padding-right:15px;}
+.eb_contentimagewrap .eb_contentwrap .eb_textinfo{float:left; width:calc(100% - 80px);}
+</style>
+<!--****************************** COOKIES CSS END HERE ******************************-->
+</body>
+</html>
