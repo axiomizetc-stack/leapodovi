@@ -1,4 +1,91 @@
 const translations = {
+  hr: {
+    skip: "Preskoči na sadržaj",
+    "nav.menu": "Izbornik",
+    "nav.home": "Kuća",
+    "nav.collection": "Kolekcija",
+    "nav.offer": "Ponuda",
+    "nav.picked": "Odabrano",
+    "nav.brands": "Brendovi",
+    "nav.showroom": "Showroom",
+    "nav.contact": "Kontakt",
+    "nav.enquire": "Pošalji upit",
+    "hero.kicker": "Showroom · Bišće polje",
+    "hero.title": "Kućni format.",
+    "hero.titleEm": "Podovi za život.",
+    "hero.lead":
+      "Od 1997. u Mostaru. Ovlašteni uvoznik i distributer EGGER laminata za Bosnu i Hercegovinu. Parket, OSB, vrata i profesionalna umjetna trava.",
+    "hero.primary": "Pogledajte ponudu",
+    "hero.secondary": "Zakažite dolazak",
+    "hero.cap": "Nova kolekcija · EGGER PRO 25+",
+    "home.kicker": "Kuća",
+    "home.title": "Ostaje prostor.",
+    "home.titleEm": "Dolazi mir.",
+    "home.text":
+      "LEA d.o.o. Mostar radi od 1997. Prodajemo podne obloge i sve što treba za ugradnju: laminati, parketi, lajsne, OSB ploče, sobna vrata, umjetna trava, lakovi i ljepila.",
+    "home.note": "Ovlašteni smo uvoznik EGGER laminata za BiH i ekskluzivni uvoznik talijanskih ljepila Lechner.",
+    "home.stat1": "Godina osnivanja",
+    "home.stat2": "Linija proizvoda",
+    "home.stat3": "Uvoznik za BiH",
+    "col.kicker": "Kolekcija",
+    "col.title": "Četiri priče.",
+    "col.titleEm": "Jedan showroom.",
+    "col.eggerKicker": "Nova kolekcija",
+    "col.egger":
+      "Autentični i prirodni dekori za dom koji treba biti sigurno mjesto. Ekskluzivni uvidi u nove površine, bez žurbe tehnologije.",
+    "col.osbTitle": "Ploče koje drže kuću.",
+    "col.osb":
+      "Odlična statička i mehanička svojstva, toplinska izolacija, obrađena površina. Za potkonstrukciju parketa, krov, zidove, namještaj i štandove.",
+    "col.grassTitle": "Trava bez čekanja sezone.",
+    "col.grass":
+      "Prodaja i ugradnja profesionalne umjetne trave iz Njemačke: nogomet, tenis, vrtovi, terase, bazeni i javne površine.",
+    "col.tarkettTitle": "Laminat zdrav za kuću.",
+    "col.tarkett":
+      "Visokokvalitetan laminatni pod koji se ističe time što je zdrav za korištenje u kući. U ponudi i gotovi parketi, linoleum i LVT.",
+    "col.look": "Pogledajte ponudu ↗",
+    "off.kicker": "Ponuda",
+    "off.title": "Sve linije.",
+    "off.titleEm": "Katalog ostaje živ.",
+    "off.lead": "Iste opcije kao na podovi.eu — ovdje uredno, tamo s cijenama i zalihama.",
+    "pick.kicker": "Odabrano",
+    "pick.title": "Izdvojeno s police.",
+    "pick.titleEm": "Cijene s kataloga.",
+    "pick.ask": "Cijena na upit",
+    "brands.kicker": "Brendovi",
+    "brands.title": "Imena koja držimo.",
+    "brands.titleEm": "Kuća ih već poznaje.",
+    "brands.text":
+      "EGGER laminat i OSB, Tarkett parketi, Kaindl, umjetna trava Polytan, lakovi Chromos, ljepila Lechner i Gerflor.",
+    "place.kicker": "Showroom",
+    "place.title": "Vaš kvart.",
+    "place.titleEm": "Naše skladište.",
+    "place.lead": "Dođite u Bišće polje. Uzorke gledate uživo, upit šaljete kad ste spremni.",
+    "place.addr": "Adresa",
+    "place.week": "Ponedjeljak — petak",
+    "place.sat": "Subota",
+    "contact.kicker": "Kontakt",
+    "contact.title": "Pišite nam.",
+    "contact.titleEm": "Odgovaramo na WhatsApp.",
+    "contact.text": "Obrazac otvara WhatsApp s već napisanom porukom. Možete i nazvati ili poslati mail.",
+    "contact.shop": "Stari katalog",
+    "form.name": "Ime",
+    "form.phone": "Telefon",
+    "form.type": "Linija",
+    "form.message": "Poruka",
+    "form.submit": "Pošalji na WhatsApp",
+    "form.namePh": "Vaše ime",
+    "form.phonePh": "06x xxx xxx",
+    "form.messagePh": "Kvadratura, dekori, kad vam treba?",
+    "form.typeEgger": "EGGER laminat",
+    "form.typeTarkett": "Tarkett / parket",
+    "form.typeOsb": "OSB ploče",
+    "form.typeGrass": "Umjetna trava",
+    "form.typeDoors": "Sobna vrata",
+    "form.typeOther": "Nešto drugo",
+    "form.error": "Unesite ime i telefon.",
+    "built.by": "Izradio Alpha IT Solutions",
+    "float.aria": "WhatsApp",
+  },
   bs: {
     skip: "Preskoči na sadržaj",
     "nav.menu": "Meni",
@@ -173,15 +260,104 @@ const translations = {
     "built.by": "Built by Alpha IT Solutions",
     "float.aria": "WhatsApp",
   },
+  de: {
+    skip: "Zum Inhalt springen",
+    "nav.menu": "Menü",
+    "nav.home": "Haus",
+    "nav.collection": "Kollektion",
+    "nav.offer": "Angebot",
+    "nav.picked": "Auswahl",
+    "nav.brands": "Marken",
+    "nav.showroom": "Showroom",
+    "nav.contact": "Kontakt",
+    "nav.enquire": "Anfrage senden",
+    "hero.kicker": "Showroom · Bišće polje",
+    "hero.title": "Hausformat.",
+    "hero.titleEm": "Böden zum Leben.",
+    "hero.lead":
+      "Seit 1997 in Mostar. Autorisierter Importeur und Vertrieb von EGGER-Laminat für Bosnien und Herzegowina. Parkett, OSB, Türen und professioneller Kunstrasen.",
+    "hero.primary": "Angebot ansehen",
+    "hero.secondary": "Besuch planen",
+    "hero.cap": "Neue Kollektion · EGGER PRO 25+",
+    "home.kicker": "Haus",
+    "home.title": "Der Raum bleibt.",
+    "home.titleEm": "Die Ruhe kommt.",
+    "home.text":
+      "LEA d.o.o. Mostar arbeitet seit 1997. Wir verkaufen Bodenbeläge und alles für den Einbau: Laminat, Parkett, Sockelleisten, OSB-Platten, Innentüren, Kunstrasen, Lacke und Klebstoffe.",
+    "home.note": "Wir sind autorisierter EGGER-Importeur für BiH und exklusiver Importeur italienischer Lechner-Klebstoffe.",
+    "home.stat1": "Gründungsjahr",
+    "home.stat2": "Produktlinien",
+    "home.stat3": "Importeur für BiH",
+    "col.kicker": "Kollektion",
+    "col.title": "Vier Geschichten.",
+    "col.titleEm": "Ein Showroom.",
+    "col.eggerKicker": "Neue Kollektion",
+    "col.egger":
+      "Authentische, natürliche Dekore für ein Zuhause, das sich sicher anfühlen soll. Ein ruhiger Blick auf die neuen Oberflächen.",
+    "col.osbTitle": "Platten, die das Haus halten.",
+    "col.osb":
+      "Starke Statik, Wärmedämmung, bearbeitete Fläche. Für Parkettunterkonstruktion, Dach, Wände, Möbel und Stände.",
+    "col.grassTitle": "Rasen ohne Saison.",
+    "col.grass":
+      "Verkauf und Einbau von professionellem Kunstrasen aus Deutschland: Fußball, Tennis, Gärten, Terrassen, Pools und öffentliche Flächen.",
+    "col.tarkettTitle": "Laminat, das ins Haus passt.",
+    "col.tarkett":
+      "Ein hochwertiger Laminatboden, der sich durch gesundes Wohnen auszeichnet. Dazu Fertigparkett, Linoleum und LVT.",
+    "col.look": "Angebot ansehen ↗",
+    "off.kicker": "Angebot",
+    "off.title": "Alle Linien.",
+    "off.titleEm": "Der Katalog bleibt lebendig.",
+    "off.lead": "Dieselben Optionen wie auf podovi.eu — hier übersichtlich, dort mit Preis und Bestand.",
+    "pick.kicker": "Auswahl",
+    "pick.title": "Vom Regal.",
+    "pick.titleEm": "Preise aus dem Shop.",
+    "pick.ask": "Preis auf Anfrage",
+    "brands.kicker": "Marken",
+    "brands.title": "Namen, die wir halten.",
+    "brands.titleEm": "Das Haus kennt sie schon.",
+    "brands.text":
+      "EGGER Laminat und OSB, Tarkett Parkett, Kaindl, Polytan-Kunstrasen, Chromos-Lacke, Lechner-Klebstoffe und Gerflor.",
+    "place.kicker": "Showroom",
+    "place.title": "Ihr Viertel.",
+    "place.titleEm": "Unser Lager.",
+    "place.lead": "Kommen Sie nach Bišće polje. Muster sehen Sie vor Ort, die Anfrage schicken Sie, wenn Sie soweit sind.",
+    "place.addr": "Adresse",
+    "place.week": "Montag — Freitag",
+    "place.sat": "Samstag",
+    "contact.kicker": "Kontakt",
+    "contact.title": "Schreiben Sie uns.",
+    "contact.titleEm": "Wir antworten auf WhatsApp.",
+    "contact.text": "Das Formular öffnet WhatsApp mit Ihrer Nachricht. Sie können auch anrufen oder mailen.",
+    "contact.shop": "Alter Katalog",
+    "form.name": "Name",
+    "form.phone": "Telefon",
+    "form.type": "Linie",
+    "form.message": "Nachricht",
+    "form.submit": "An WhatsApp senden",
+    "form.namePh": "Ihr Name",
+    "form.phonePh": "06x xxx xxx",
+    "form.messagePh": "Quadratmeter, Dekor, wann brauchen Sie es?",
+    "form.typeEgger": "EGGER Laminat",
+    "form.typeTarkett": "Tarkett / Parkett",
+    "form.typeOsb": "OSB-Platten",
+    "form.typeGrass": "Kunstrasen",
+    "form.typeDoors": "Innentüren",
+    "form.typeOther": "Etwas anderes",
+    "form.error": "Bitte Name und Telefon eingeben.",
+    "built.by": "Erstellt von Alpha IT Solutions",
+    "float.aria": "WhatsApp",
+  },
 };
 
 const typeLabels = {
+  hr: { egger: "EGGER laminat", tarkett: "Tarkett / parket", osb: "OSB ploče", grass: "Umjetna trava", doors: "Sobna vrata", other: "Nešto drugo" },
   bs: { egger: "EGGER laminat", tarkett: "Tarkett / parket", osb: "OSB ploče", grass: "Umjetna trava", doors: "Sobna vrata", other: "Nešto drugo" },
   en: { egger: "EGGER laminate", tarkett: "Tarkett / parquet", osb: "OSB boards", grass: "Artificial grass", doors: "Interior doors", other: "Something else" },
+  de: { egger: "EGGER Laminat", tarkett: "Tarkett / Parkett", osb: "OSB-Platten", grass: "Kunstrasen", doors: "Innentüren", other: "Etwas anderes" },
 };
 
 function applyLanguage(lang) {
-  const pack = translations[lang] || translations.bs;
+  const pack = translations[lang] || translations.hr;
   document.documentElement.lang = lang;
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
@@ -205,7 +381,8 @@ document.querySelectorAll(".lang button").forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.lang));
 });
 
-applyLanguage(localStorage.getItem("leapodovi-lang") || "bs");
+const savedLang = localStorage.getItem("leapodovi-lang");
+applyLanguage(translations[savedLang] ? savedLang : "hr");
 
 const header = document.querySelector(".site-header");
 const toggle = document.querySelector(".menu-toggle");
@@ -224,7 +401,7 @@ document.getElementById("order-form")?.addEventListener("submit", (event) => {
   event.preventDefault();
   const form = event.currentTarget;
   const status = document.getElementById("form-status");
-  const lang = localStorage.getItem("leapodovi-lang") || "bs";
+  const lang = translations[localStorage.getItem("leapodovi-lang")] ? localStorage.getItem("leapodovi-lang") : "hr";
   const data = new FormData(form);
   const name = String(data.get("name") || "").trim();
   const phone = String(data.get("phone") || "").trim();
@@ -236,11 +413,13 @@ document.getElementById("order-form")?.addEventListener("submit", (event) => {
     return;
   }
 
-  const typeText = typeLabels[lang][type] || type;
+  const typeText = (typeLabels[lang] || typeLabels.hr)[type] || type;
   const body =
     lang === "en"
       ? `Hello LEA Podovi, I am ${name}. Phone: ${phone}. Line: ${typeText}. ${message}`
-      : `Pozdrav LEA Podovi, ja sam ${name}. Telefon: ${phone}. Linija: ${typeText}. ${message}`;
+      : lang === "de"
+        ? `Hallo LEA Podovi, ich bin ${name}. Telefon: ${phone}. Linie: ${typeText}. ${message}`
+        : `Pozdrav LEA Podovi, ja sam ${name}. Telefon: ${phone}. Linija: ${typeText}. ${message}`;
 
   status.textContent = "";
   window.open(`https://wa.me/38763404444?text=${encodeURIComponent(body)}`, "_blank", "noopener,noreferrer");

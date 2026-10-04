@@ -68,8 +68,8 @@ nav a:hover { color: var(--wine); }
 .header-end { display: flex; align-items: center; gap: 0.7rem; }
 .lang {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 5.2rem;
+  grid-template-columns: repeat(4, 1fr);
+  width: 9.6rem;
   padding: 0.14rem;
   background: white;
   border-radius: 999px;
