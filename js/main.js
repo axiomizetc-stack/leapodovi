@@ -33,13 +33,16 @@ const translations = {
     "col.eggerKicker": "Nova kolekcija",
     "col.egger":
       "Autentični i prirodni dekori za dom koji treba biti sigurno mjesto. Ekskluzivni uvidi u nove površine, bez žurbe tehnologije.",
-    "col.osbTitle": "Ploče koje drže kuću.",
+    "col.osbTitle": "Ploče koje",
+    "col.osbTitleEm": "drže kuću.",
     "col.osb":
       "Odlična statička i mehanička svojstva, toplinska izolacija, obrađena površina. Za potkonstrukciju parketa, krov, zidove, namještaj i štandove.",
-    "col.grassTitle": "Trava bez čekanja sezone.",
+    "col.grassTitle": "Trava bez",
+    "col.grassTitleEm": "čekanja sezone.",
     "col.grass":
       "Prodaja i ugradnja profesionalne umjetne trave iz Njemačke: nogomet, tenis, vrtovi, terase, bazeni i javne površine.",
-    "col.tarkettTitle": "Laminat zdrav za kuću.",
+    "col.tarkettTitle": "Laminat zdrav",
+    "col.tarkettTitleEm": "za kuću.",
     "col.tarkett":
       "Visokokvalitetan laminatni pod koji se ističe time što je zdrav za korištenje u kući. U ponudi i gotovi parketi, linoleum i LVT.",
     "col.look": "Pogledajte ponudu ↗",
@@ -120,13 +123,16 @@ const translations = {
     "col.eggerKicker": "Nova kolekcija",
     "col.egger":
       "Autentični i prirodni dekori za dom koji treba biti sigurno mjesto. Ekskluzivni uvidi u nove površine, bez žurbe tehnologije.",
-    "col.osbTitle": "Ploče koje drže kuću.",
+    "col.osbTitle": "Ploče koje",
+    "col.osbTitleEm": "drže kuću.",
     "col.osb":
       "Odlična statička i mehanička svojstva, toplinska izolacija, obrađena površina. Za potkonstrukciju parketa, krov, zidove, namještaj i štandove.",
-    "col.grassTitle": "Trava bez čekanja sezone.",
+    "col.grassTitle": "Trava bez",
+    "col.grassTitleEm": "čekanja sezone.",
     "col.grass":
       "Prodaja i ugradnja profesionalne umjetne trave iz Njemačke: nogomet, tenis, bašte, terase, bazeni, javne površine i vrtovi.",
-    "col.tarkettTitle": "Laminat zdrav za kuću.",
+    "col.tarkettTitle": "Laminat zdrav",
+    "col.tarkettTitleEm": "za kuću.",
     "col.tarkett":
       "Visokokvalitetan laminatni pod koji se ističe time što je zdrav za korištenje u kući. U ponudi i gotovi parketi, linoleum i LVT.",
     "col.look": "Pogledajte ponudu ↗",
@@ -207,13 +213,16 @@ const translations = {
     "col.eggerKicker": "New collection",
     "col.egger":
       "Authentic, natural décors for a home that should feel safe. A quieter look at the new surfaces.",
-    "col.osbTitle": "Boards that hold the house.",
+    "col.osbTitle": "Boards that",
+    "col.osbTitleEm": "hold the house.",
     "col.osb":
       "Strong statics, thermal insulation, a finished face. For parquet subfloors, roofs, walls, furniture and stands.",
-    "col.grassTitle": "Grass that skips the season.",
+    "col.grassTitle": "Grass that",
+    "col.grassTitleEm": "skips the season.",
     "col.grass":
       "Sale and installation of professional German grass: football, tennis, gardens, terraces, pools and public ground.",
-    "col.tarkettTitle": "A laminate fit for the house.",
+    "col.tarkettTitle": "A laminate",
+    "col.tarkettTitleEm": "fit for the house.",
     "col.tarkett":
       "A quality laminate chosen because it is healthy to live on. Finished parquet, linoleum and LVT sit beside it.",
     "col.look": "See the offer ↗",
@@ -294,13 +303,16 @@ const translations = {
     "col.eggerKicker": "Neue Kollektion",
     "col.egger":
       "Authentische, natürliche Dekore für ein Zuhause, das sich sicher anfühlen soll. Ein ruhiger Blick auf die neuen Oberflächen.",
-    "col.osbTitle": "Platten, die das Haus halten.",
+    "col.osbTitle": "Platten, die",
+    "col.osbTitleEm": "das Haus halten.",
     "col.osb":
       "Starke Statik, Wärmedämmung, bearbeitete Fläche. Für Parkettunterkonstruktion, Dach, Wände, Möbel und Stände.",
-    "col.grassTitle": "Rasen ohne Saison.",
+    "col.grassTitle": "Rasen ohne",
+    "col.grassTitleEm": "Saison.",
     "col.grass":
       "Verkauf und Einbau von professionellem Kunstrasen aus Deutschland: Fußball, Tennis, Gärten, Terrassen, Pools und öffentliche Flächen.",
-    "col.tarkettTitle": "Laminat, das ins Haus passt.",
+    "col.tarkettTitle": "Laminat, das",
+    "col.tarkettTitleEm": "ins Haus passt.",
     "col.tarkett":
       "Ein hochwertiger Laminatboden, der sich durch gesundes Wohnen auszeichnet. Dazu Fertigparkett, Linoleum und LVT.",
     "col.look": "Angebot ansehen ↗",
@@ -386,16 +398,47 @@ applyLanguage(translations[savedLang] ? savedLang : "hr");
 
 const header = document.querySelector(".site-header");
 const toggle = document.querySelector(".menu-toggle");
+const mobileNav = document.getElementById("mobile-nav");
+
+function setMenuOpen(open) {
+  document.body.classList.toggle("menu-open", open);
+  toggle?.setAttribute("aria-expanded", String(open));
+  if (mobileNav) mobileNav.hidden = !open;
+}
+
 toggle?.addEventListener("click", () => {
-  const open = header.classList.toggle("is-open");
-  toggle.setAttribute("aria-expanded", String(open));
+  setMenuOpen(!document.body.classList.contains("menu-open"));
 });
-document.querySelectorAll("#nav a").forEach((link) => {
-  link.addEventListener("click", () => {
-    header.classList.remove("is-open");
-    toggle?.setAttribute("aria-expanded", "false");
-  });
+
+document.querySelectorAll("#nav a, #mobile-nav a, .header-cta").forEach((link) => {
+  link.addEventListener("click", () => setMenuOpen(false));
 });
+
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+
+const syncHeader = () => {
+  header?.classList.toggle("scrolled", window.scrollY > 72);
+};
+window.addEventListener("scroll", syncHeader, { passive: true });
+syncHeader();
+
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (!reduceMotion && "IntersectionObserver" in window) {
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+  );
+  document.querySelectorAll(".reveal").forEach((node) => io.observe(node));
+} else {
+  document.querySelectorAll(".reveal").forEach((node) => node.classList.add("visible"));
+}
 
 document.getElementById("order-form")?.addEventListener("submit", (event) => {
   event.preventDefault();
