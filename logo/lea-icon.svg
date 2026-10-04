@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="LEA Podovi icon">
+  <title>LEA Podovi</title>
+  <rect width="140" height="140" rx="22" fill="#F7F1F2"/>
+  <g transform="translate(10 10)">
+    <rect x="0" y="0" width="34" height="56" rx="3" fill="#6B1022"/>
+    <rect x="0" y="60" width="34" height="60" rx="3" fill="#8B1A2F"/>
+    <rect x="38" y="86" width="44" height="34" rx="3" fill="#A32339"/>
+    <rect x="86" y="86" width="34" height="34" rx="3" fill="#7A1528"/>
+    <g stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" stroke-linecap="round">
+      <path d="M12 8v40M22 12v34"/>
+      <path d="M12 68v44M22 72v38"/>
+      <path d="M46 96h28M46 104h22"/>
+      <path d="M94 96h18M94 104h24"/>
+    </g>
+  </g>
+</svg>
