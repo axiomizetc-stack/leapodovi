@@ -51,7 +51,17 @@ button, input, select, textarea { font: inherit; }
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(226, 214, 200, 0.7);
 }
-.logo img { height: 42px; width: auto; display: block; }
+.logo {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+.logo img {
+  height: 46px;
+  width: auto;
+  display: block;
+  background: none;
+}
 nav { display: flex; gap: 0.85rem; margin-left: auto; }
 nav a {
   display: flex;
@@ -252,7 +262,13 @@ nav a:hover { color: var(--wine); }
   background: var(--cream);
   padding: 0 0 1rem;
 }
-.product img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+.product img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .product strong, .product em { display: block; padding: 0 0.8rem; }
 .product strong { margin-top: 0.8rem; font-size: 0.95rem; }
 .product em { color: var(--muted); font-style: normal; font-size: 0.82rem; margin-top: 0.2rem; }
